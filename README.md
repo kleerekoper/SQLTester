@@ -22,4 +22,4 @@ To install SQL Tester:
 
 You are free to adapt and modify SQL Tester. If you do so, please acknowledge both ourselves and AsseSQL. If you use SQL Tester for research purposes, please cite the following paper:
 
-* *Kleerekoper, Anthony and Schofield, Andrew. "SQL Tester: An Online SQL Assessment Tool and its Impact." Proceedings of the 2018 Conference on Innovation & Technology in Computer Science Education. ACM, 2018.
+*Kleerekoper, Anthony and Schofield, Andrew. "SQL Tester: An Online SQL Assessment Tool and its Impact." Proceedings of the 2018 Conference on Innovation & Technology in Computer Science Education. ACM, 2018.*

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><?php echo $page_title; ?></title>	
+	<link rel="stylesheet" href="style.css?<?php echo time(); ?>" type="text/css"/>
+</head>
+<body>
+	<header>
+		<h1>SQL Tester</h1>
+		<h2>for practice and assessment</h2>
+	</header>
+	<nav 
+        <?php  if ( (isset($_SESSION['admin']) && $_SESSION['admin'] === "1") ){ 
+                    echo ' style="width:750px"' ;
+                } 
+        ?> 
+        >
+		<ul>
+			<li><a href="index.php">Home Page</a></li>
+            <li><a href="view_tests.php">View Tests</a></li>
+            <li><a href="start_new_test.php">Start New Test</a></li>
+            <?php
+                if ( (isset($_SESSION['admin']) && $_SESSION['admin'] === "1") ){
+                    echo '<li><a href="admin.php">Admin</a></li>';
+                }
+            ?>
+            <li><a href="password.php">Change Password</a></li>
+			<li><?php 
+                if ( (isset($_SESSION['snumber'])) && (!strpos($_SERVER['PHP_SELF'], 'logout.php')) ) {
+                    echo '<a href="logout.php">Logout</a>';
+                } else {
+                    echo '<a href="login.php">Login</a>';
+                }
+            ?></li>
+
+		</ul>
+	</nav>
+<section id="maincontent">

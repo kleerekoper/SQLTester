@@ -18,6 +18,8 @@ To install SQL Tester:
 4. Run the other sql files to set up the four practice tests.
 5. Add new students.
 
+Please note that the CSS was only tested fully on IE on a desktop monitor. Although the tool does work with other browsers and screen sizes, it may not look perfect.
+
 ## Citing the Tool
 
 You are free to adapt and modify SQL Tester. If you do so, please acknowledge both ourselves and AsseSQL. If you use SQL Tester for research purposes, please cite the following paper:
